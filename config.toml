@@ -173,42 +173,54 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      name = "Kiki Fibrianto, STP, MPhil, PhD"
+      position = "Tim"
       scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+        "Tulis bidang keahlian disini"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-envelope", "#"],
+        ["fa-phone", "#"]
       ]
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      name = "Wenny Bekti Sunarharum, STP, MFoodSt, PhD"
+      position = "Tim"
+      scope = [
+        "Tulis bidang keahlian disini"
+      ]
+      # For bio markdown and even multiline strings are available.
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-envelope", "#"],
+        ["fa-phone", "#"]
       ]
 
     [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      img = "2.jpg"
+      name = "Indria Purwantiningrum, STP, MSi"
+      position = "Tim"
+      scope = [
+        "Tulis bidang keahlian disini"
+      ]
+      # For bio markdown and even multiline strings are available.
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-envelope", "#"],
+        ["fa-phone", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Elok Waziiroh, STP, MSi"
+      position = "Tim"
+      scope = [
+        "Tulis bidang keahlian disini"
+      ]
+      # For bio markdown and even multiline strings are available.
+      social = [
+        ["fa-envelope", "#"],
+        ["fa-phone", "#"]
       ]
 
   # Client section
