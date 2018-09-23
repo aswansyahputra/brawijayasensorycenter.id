@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://brawijayasensorycenter.id"
+baseurl = "https://brawijayasensorycenter.netlify.com/"
 languageCode = "en-us"
 title = "Sensory and Applied Food Science Research Group"
 theme = "hugo-agency-theme"
