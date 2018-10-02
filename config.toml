@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://brawijayasensorycenter.netlify.com/"
+baseurl = "https://brawijayasensorycenter.id"
 languageCode = "en-us"
 title = "Sensory and Applied Food Science Research Group"
 theme = "hugo-agency-theme"
@@ -46,11 +46,11 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Brawijaya Sensory Center"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Kegiatan"
-    portfolio = "Dokumentasi"
+    services = "Ruang Lingkup"
+    portfolio = "Publikasi dan Kegiatan"
     about = "Tentang Kami"
     team = "Anggota"
     contact = "Kontak"
@@ -76,34 +76,64 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Sensory and Applied Food Science Research Group"
+    title = "Kelompok Kajian Sensoris dan Pangan Terapan"
     subtitle = ""
-    buttonText = "Kegiatan"
+    buttonText = "Ruang Lingkup"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Kegiatan"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Ruang Lingkup"
+    subtitle = "Ruang lingkup kegiatan dan penelitian Kelompok Kajian Sensoris dan Pangan Terapan Universitas Brawijaya"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-bar-chart"
-      title = "E-Commerce"
+      icon = "fa-thumbs-up"
+      title = "Mutu Pangan"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
+      icon = "fa-users"
+      title = "Perilaku Konsumen"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
+      icon = "fa-book"
+      title = "Manajemen Keamanan Pangan dan Kehalalan"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-cart-plus"
+      title = "Pemasaran"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-users"
+      title = "Psikologi"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-comments"
+      title = "Kulinologi Pangan Tradisional"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-coffee"
+      title = "Gastronomi Molekuler"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-chain"
+      title = "Sensori Syaraf"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
@@ -114,11 +144,11 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Dokumentasi"
+    title = "Publikasi dan Kegiatan"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
-      client = "Klien"
+      client = "Bekerjasama dengan"
       date = "Tanggal"
       category = "Kategori"
       buttonText = "Tutup"
@@ -129,34 +159,28 @@ googleAnalytics = ""
     enable = true
     title = "Tentang Kami"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    endpoint = "Brawijaya Sensory Center"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = ""
+      title = "Visi"
+      description = "Menjadi pusat pengembangan ilmu dan teknologi di bidang sensoris dan pangan terapan yang terkemuka dalam rangka mendukung industri pangan dan hasil pertanian di pasar global"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = ""
+      title = "Misi"
+      description = "(1) Menghasilkan karya ilmiah di bidang sensoris dan ilmu pangan terapan yang memberikan kontribusi bagi industri dan masyarakat; (2) Meningkatkan kualitas hasil penelitian di bidang sensoris dan ilmu pangan terapan"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = ""
+      title = "Tujuan"
+      description = "(1) Meningkatkan rekam jejak melalui akselerasi publikasi bereputasi dalam rangka mengembangkan ilmu dan teknologi dalam bidang ilmu sensoris dan pangan terapan; (2) Membentuk jejaring kerjasama dalam rangka peningkatan mutu penelitian berbasis ilmu sensori dan pangan terapan serta inisiasi pembentukan asosiasi profesi berbasis ilmu sensori dan pangan terapan"
 
 
   # Team section
@@ -164,8 +188,8 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Anggota"
+    subtitle = "Kelompok Kajian Sensoris dan Pangan Terapan beranggotakan para ahli di bidang ilmu sensoris pangan dan pangan terapan"
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -174,53 +198,92 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "1.jpg"
       name = "Kiki Fibrianto, STP, MPhil, PhD"
-      position = "Tim"
+      position = "Ketua"
       scope = [
-        "Tulis bidang keahlian disini"
+        "Sensori pangan, studi konsumen, gastronomi, dan kulinologi"
       ]
       # For bio markdown and even multiline strings are available.
       social = [
-        ["fa-envelope", "#"],
-        ["fa-phone", "#"]
+        ["fa-envelope", "mailto:kiki.fibrianto@ub.ac.id"],
+        ["fa-globe", "http://thp.ub.ac.id/profildosen/dosen_detail.php?idx_dosen=41"]
       ]
 
     [[params.team.members]]
       img = "2.jpg"
       name = "Wenny Bekti Sunarharum, STP, MFoodSt, PhD"
-      position = "Tim"
+      position = "Sekretaris"
       scope = [
-        "Tulis bidang keahlian disini"
+        "Flavor Pangan, ilmu sensoris, gastronomi molekuler, kulinologi"
       ]
       # For bio markdown and even multiline strings are available.
       social = [
-        ["fa-envelope", "#"],
-        ["fa-phone", "#"]
+        ["fa-envelope", "mailto:wbsunarharum@ub.ac.id"],
+        ["fa-globe", "http://thp.ub.ac.id/profildosen/dosen_detail.php?idx_dosen=39"]
+      ]
+
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Prof. Dr. Ir. Harijono, M.App.Sc"
+      position = "Divisi Pengembangan Pangan Tradisional"
+      scope = [
+        "Teknologi hasil pertanian dan teknologi pengolahan pangan"
+      ]
+      # For bio markdown and even multiline strings are available.
+      social = [
+        ["fa-envelope", "mailto:harijono_07@yahoo.com"],
+        ["fa-globe", "http://thp.ub.ac.id/profildosen/dosen_detail.php?idx_dosen=19"]
+      ]
+
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Dr. Ir. Sudarminto Setyo Yuwono, M.App.Sc"
+      position = "Divisi Teknologi Pangan Terapan"
+      scope = [
+        "Keteknikan pangan"
+      ]
+      # For bio markdown and even multiline strings are available.
+      social = [
+        ["fa-envelope", "mailto:ssyuwono2004@yahoo.com"],
+        ["fa-phone", "http://thp.ub.ac.id/profildosen/dosen_detail.php?idx_dosen=21"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Erni Sofia Murtini, STP., MP., PhD"
+      position = "Pengembangan Pangan Tradisional"
+      scope = [
+        "Ilmu kimiawi serealia"
+      ]
+      # For bio markdown and even multiline strings are available.
+      social = [
+        ["fa-envelope", "mailto:erni.murtini@ub.ac.id"],
+        ["fa-globe", "http://thp.ub.ac.id/profildosen/dosen_detail.php?idx_dosen=23"]
       ]
 
     [[params.team.members]]
       img = "2.jpg"
       name = "Indria Purwantiningrum, STP, MSi"
-      position = "Tim"
+      position = "Divisi Mutu dan Keamanan Pangan"
       scope = [
-        "Tulis bidang keahlian disini"
+        "Menejemen mutu pangan dan pengembangan produk"
       ]
       # For bio markdown and even multiline strings are available.
       social = [
-        ["fa-envelope", "#"],
-        ["fa-phone", "#"]
+        ["fa-envelope", "mailto:airdni @yahoo.com"],
+        ["fa-globe", "http://thp.ub.ac.id/profildosen/dosen_detail.php?idx_dosen=40"]
       ]
 
     [[params.team.members]]
       img = "2.jpg"
       name = "Elok Waziiroh, STP, MSi"
-      position = "Tim"
+      position = "Bendahara"
       scope = [
-        "Tulis bidang keahlian disini"
+        "Keteknikan pangan dan komponen senyawa bioaktif"
       ]
       # For bio markdown and even multiline strings are available.
       social = [
-        ["fa-envelope", "#"],
-        ["fa-phone", "#"]
+        ["fa-envelope", "mailto:elokwz@yahoo.co.id"],
+        ["fa-globe", "http://thp.ub.ac.id/profildosen/dosen_detail.php?idx_dosen=27"]
       ]
 
   # Client section
@@ -229,26 +292,15 @@ googleAnalytics = ""
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
-      title = "Bekerjasama dengan"
+      title = "Jaringan kerjasama"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+        logo = "sensolutionid.png"
+        link = "https://sensolution.ID"
 
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
 
   # Contact section
   [params.contact]
