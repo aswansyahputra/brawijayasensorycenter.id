@@ -76,7 +76,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Kelompok Kajian Sensoris dan Pangan Terapan"
+    title = "Kelompok Kajian Ilmu Sensori dan Pangan Terapan"
     subtitle = ""
     buttonText = "Ruang Lingkup"
 
@@ -85,56 +85,56 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Ruang Lingkup"
-    subtitle = "Ruang lingkup kegiatan dan penelitian Kelompok Kajian Sensoris dan Pangan Terapan Universitas Brawijaya"
+    subtitle = ""
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-thumbs-up"
       title = "Mutu Pangan"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Melakukan kajian ilmiah untuk meningkatkan kualitas mutu pangan"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Perilaku Konsumen"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Mempelajari perilaku konsumen terhadap produk melalui pendekatan studi konsumen"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-book"
       title = "Manajemen Keamanan Pangan dan Kehalalan"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Merumuskan prosedur pengolahan bahan pangan agar memenuhi standar keamanan dan kehalalan"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-cart-plus"
       title = "Pemasaran"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Membantu memberikan masukan kepada pelaku industri pangan dalam merancang strategi pemasaran"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Psikologi"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Mempelajari psikologi konsumen yang mendasari perilaku dan pengambilan keputusan terkait produk pangan"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-comments"
       title = "Kulinologi Pangan Tradisional"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Memetakan warisan kuliner nusantara dan memberikan sentuhan teknologi pangan dalam sistem pengolahannya"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-coffee"
       title = "Gastronomi Molekuler"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Mempelajari dan menerapkan kaidah-kaidah gastronomi molekuler dalam pengolahan dan penyajian produk pangan"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-chain"
       title = "Sensori Syaraf"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Melakukan penelitian akan peran dan mekanisme syaraf manusia dalam kegiatan konsumsi produk pangan"
       url = "#"
 
   # Portfolio section
@@ -148,7 +148,7 @@ googleAnalytics = ""
     subtitle = ""
 
     [params.portfolio.modal]
-      client = "Bekerjasama dengan"
+      client = "Dalam"
       date = "Tanggal"
       category = "Kategori"
       buttonText = "Tutup"
@@ -158,7 +158,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Tentang Kami"
-    subtitle = ""
+    subtitle = "Kelompok Kajian Ilmu Sensori dan Pangan Terapan secara resmi didirikan pada tahun 2018 di Universitas Brawijaya. Kelompok kajian ini berfokus pada bidang sensori pangan tradisional, metode mutakhir dalam pengembangan produk pangan, dan persepsi sensoris serta mutu pangan. Kelompok kajian ini diharapkan untuk mampu menjadi kelompok kajian baru yang aktif dan koheren dengan identitas yang kuat di Indonesia."
     endpoint = "Brawijaya Sensory Center"
 
     # The events will be listed from the top to the bottom.
