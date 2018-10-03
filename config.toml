@@ -48,7 +48,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "Brawijaya Sensory Center"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "logo.png"
     services = "Ruang Lingkup"
     portfolio = "Publikasi dan Kegiatan"
     about = "Tentang Kami"
@@ -165,19 +165,19 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
+      img = "visi.png"
       date = ""
       title = "Visi"
       description = "Menjadi pusat pengembangan ilmu dan teknologi di bidang sensoris dan pangan terapan yang terkemuka dalam rangka mendukung industri pangan dan hasil pertanian di pasar global"
 
     [[params.about.events]]
-      img = "2.jpg"
+      img = "misi.png"
       date = ""
       title = "Misi"
       description = "(1) Menghasilkan karya ilmiah di bidang sensoris dan ilmu pangan terapan yang memberikan kontribusi bagi industri dan masyarakat; (2) Meningkatkan kualitas hasil penelitian di bidang sensoris dan ilmu pangan terapan"
 
     [[params.about.events]]
-      img = "3.jpg"
+      img = "target.png"
       date = ""
       title = "Tujuan"
       description = "(1) Meningkatkan rekam jejak melalui akselerasi publikasi bereputasi dalam rangka mengembangkan ilmu dan teknologi dalam bidang ilmu sensoris dan pangan terapan; (2) Membentuk jejaring kerjasama dalam rangka peningkatan mutu penelitian berbasis ilmu sensori dan pangan terapan serta inisiasi pembentukan asosiasi profesi berbasis ilmu sensori dan pangan terapan"
@@ -328,7 +328,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "kiki.fibrianto@ub.ac.id"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
