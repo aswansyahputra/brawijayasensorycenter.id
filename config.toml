@@ -145,7 +145,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Publikasi dan Kegiatan"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = ""
 
     [params.portfolio.modal]
       client = "Bekerjasama dengan"
@@ -158,7 +158,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Tentang Kami"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = ""
     endpoint = "Brawijaya Sensory Center"
 
     # The events will be listed from the top to the bottom.
@@ -190,13 +190,13 @@ googleAnalytics = ""
     #center = true
     title = "Anggota"
     subtitle = "Kelompok Kajian Sensoris dan Pangan Terapan beranggotakan para ahli di bidang ilmu sensoris pangan dan pangan terapan"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
+      img = "kiki.png"
       name = "Kiki Fibrianto, STP, MPhil, PhD"
       position = "Ketua"
       scope = [
@@ -209,7 +209,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
+      img = "wenny.png"
       name = "Wenny Bekti Sunarharum, STP, MFoodSt, PhD"
       position = "Sekretaris"
       scope = [
@@ -222,8 +222,8 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Prof. Dr. Ir. Harijono, M.App.Sc"
+      img = "har.png"
+      name = "Prof. Dr. Ir. Harijono, MAppSc"
       position = "Divisi Pengembangan Pangan Tradisional"
       scope = [
         "Teknologi hasil pertanian dan teknologi pengolahan pangan"
@@ -235,8 +235,8 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Dr. Ir. Sudarminto Setyo Yuwono, M.App.Sc"
+      img = "dar.png"
+      name = "Dr. Ir. Sudarminto Setyo Yuwono, MAppSc"
       position = "Divisi Teknologi Pangan Terapan"
       scope = [
         "Keteknikan pangan"
@@ -248,7 +248,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
+      img = "erni.png"
       name = "Erni Sofia Murtini, STP., MP., PhD"
       position = "Pengembangan Pangan Tradisional"
       scope = [
@@ -261,7 +261,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
+      img = "indria.png"
       name = "Indria Purwantiningrum, STP, MSi"
       position = "Divisi Mutu dan Keamanan Pangan"
       scope = [
@@ -274,7 +274,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
+      img = "elok.png"
       name = "Elok Waziiroh, STP, MSi"
       position = "Bendahara"
       scope = [
@@ -306,7 +306,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Hubungi Kami"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = ""
     buttonText = "Kirim Pesan"
     # netlify = true
 
