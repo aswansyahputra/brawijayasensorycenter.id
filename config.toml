@@ -301,6 +301,13 @@ googleAnalytics = ""
         logo = "sensolutionid.png"
         link = "https://sensolution.ID"
 
+      [[params.clients]]
+        logo = "campina.png"
+        link = "http://www.campina.co.id/"
+
+      [[params.clients]]
+        logo = "p3gi.png"
+        link = "https://www.p3gi.co.id/id"
 
   # Contact section
   [params.contact]
