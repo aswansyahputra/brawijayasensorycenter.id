@@ -19,7 +19,7 @@ googleAnalytics = ""
   # information about you and your website.
   name = "Sensory and Applied Food Science Research Group"
   description = "Sensory and Applied Food Science Research Group"
-  # email = "your@email.com"
+  email = "kiki.fibrianto@ub.ac.id"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -60,15 +60,15 @@ googleAnalytics = ""
     # below and replace the values with your own.
 
     # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
+    [[menu.prepend]]
+      url = "https://drive.google.com/file/d/1ZCzv3iQu6GPVNvFemxV09HIZOiguSh3r/view?usp=sharing"
+      name = "SOP Penelitian"
+      weight = 10
 
     # postpended links
     #[[menu.postpend]]
     #  url = "http://gohugo.io"
-    #  name = "External link"
+    #  name = "SOP Penelitian"
     #  weight = 10
 
 
